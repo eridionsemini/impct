@@ -1,9 +1,9 @@
 import React, {ReactElement} from 'react';
 
 import {
+  createNavigationContainerRef,
   DefaultTheme,
   NavigationContainer,
-  createNavigationContainerRef,
 } from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 

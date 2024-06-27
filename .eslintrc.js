@@ -17,7 +17,9 @@ module.exports = {
           ['^(react$|react-native$)'],
           ['^\\u0000'],
           ['^@?\\w'],
-          ['^(root|context|hoc|hooks|models|screens|types|utils|store|lists|navigation|firebase)(/.*|$)'],
+          [
+            '^(root|context|hoc|hooks|models|screens|types|utils|store|lists|navigation|firebase)(/.*|$)',
+          ],
           ['^(components)(/.*|$)'],
           ['^(apollo)(/.*|$)'],
           ['^(constants|general-types)(/.*|$)'],

@@ -1,5 +1,5 @@
-import React, {ReactElement, FC} from 'react';
-import {SafeAreaView, View, Text} from 'react-native';
+import React, {FC, ReactElement} from 'react';
+import {SafeAreaView, Text, View} from 'react-native';
 
 import styles from './styles';
 
