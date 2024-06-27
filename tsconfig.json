@@ -26,7 +26,7 @@
         "src/models/*"
       ],
       "navigation": [
-        "src/navigation/*"
+        "src/navigation/"
       ],
       "screens": [
         "src/screens/"

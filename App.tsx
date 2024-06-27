@@ -2,7 +2,7 @@ import React, {ReactElement} from 'react';
 
 import 'react-native-gesture-handler';
 
-import RootNavi from './src/navigation/rootNavi';
+import {RootNavi} from 'navigation';
 
 function App(): ReactElement {
   return <RootNavi />;

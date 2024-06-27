@@ -9,7 +9,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 
 import {HomeScreen} from 'screens';
 
-import {RootStackNaviParams} from './types';
+import {RootStackNaviParams} from '../types';
 
 const theme = {
   ...DefaultTheme,
@@ -34,12 +34,11 @@ const RootStackNavi: React.FC = (): ReactElement => (
   </Stack.Navigator>
 );
 
-const RootNavi: React.FC = (): ReactElement => (
+export const RootNavi: React.FC = (): ReactElement => (
   <NavigationContainer theme={theme} ref={navigationRef}>
     <RootStackNavi />
   </NavigationContainer>
 );
 
-export default RootNavi;
-
-export const navigationRef = createNavigationContainerRef<RootStackNaviParams>();
+export const navigationRef =
+  createNavigationContainerRef<RootStackNaviParams>();
