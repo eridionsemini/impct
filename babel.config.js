@@ -13,6 +13,7 @@ module.exports = {
           constants: './src/constants',
           hoc: './src/hoc',
           hooks: './src/hooks',
+          ctx: './src/ctx',
           models: './src/models',
           navigation: './src/navigation',
           screens: './src/screens',

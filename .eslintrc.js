@@ -18,7 +18,7 @@ module.exports = {
           ['^\\u0000'],
           ['^@?\\w'],
           [
-            '^(root|context|hoc|hooks|models|screens|types|utils|store|lists|navigation|firebase)(/.*|$)',
+            '^(root|ctx|hoc|hooks|models|screens|types|utils|store|lists|navigation|firebase)(/.*|$)',
           ],
           ['^(components)(/.*|$)'],
           ['^(apollo)(/.*|$)'],

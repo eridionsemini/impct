@@ -17,10 +17,13 @@
         "src/components/"
       ],
       "constants": [
-        "src/constants/*"
+        "src/constants/"
       ],
       "hooks": [
         "src/hooks/"
+      ],
+      "ctx": [
+        "src/ctx"
       ],
       "models": [
         "src/models/*"
