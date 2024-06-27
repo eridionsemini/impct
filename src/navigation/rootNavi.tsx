@@ -7,7 +7,7 @@ import {
 } from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 
-import {HomeScreen} from '../screens';
+import {HomeScreen} from 'screens';
 
 import {RootStackNaviParams} from './types';
 
@@ -42,5 +42,4 @@ const RootNavi: React.FC = (): ReactElement => (
 
 export default RootNavi;
 
-export const navigationRef =
-  createNavigationContainerRef<RootStackNaviParams>();
+export const navigationRef = createNavigationContainerRef<RootStackNaviParams>();
