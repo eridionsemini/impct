@@ -40,5 +40,4 @@ export const RootNavi: React.FC = (): ReactElement => (
   </NavigationContainer>
 );
 
-export const navigationRef =
-  createNavigationContainerRef<RootStackNaviParams>();
+export const navigationRef = createNavigationContainerRef<RootStackNaviParams>();

@@ -31,7 +31,7 @@ module.exports = {
         include: ['NODE_ENV'],
       },
     ],
-
     ['@babel/plugin-proposal-decorators', {version: '2023-11'}],
+    'react-native-reanimated/plugin',
   ],
 };

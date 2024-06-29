@@ -8,22 +8,13 @@ interface ThemeContextData {
   toggleTheme: () => void;
 }
 
-export const ThemeContext = createContext<ThemeContextData | undefined>(
-  undefined,
-);
+export const ThemeContext = createContext<ThemeContextData | undefined>(undefined);
 
 export const ThemeProvider = ({children}: {children: ReactNode}) => {
   const colorScheme = Appearance.getColorScheme();
-  const [theme, setTheme] = useState<Theme>(
-    colorScheme === 'dark' ? 'dark' : 'light',
-  );
+  const [theme, setTheme] = useState<Theme>(colorScheme === 'dark' ? 'dark' : 'light');
 
-  const toggleTheme = () =>
-    setTheme(prevTheme => (prevTheme === 'light' ? 'dark' : 'light'));
+  const toggleTheme = () => setTheme(prevTheme => (prevTheme === 'light' ? 'dark' : 'light'));
 
-  return (
-    <ThemeContext.Provider value={{theme, toggleTheme}}>
-      {children}
-    </ThemeContext.Provider>
-  );
+  return <ThemeContext.Provider value={{theme, toggleTheme}}>{children}</ThemeContext.Provider>;
 };
